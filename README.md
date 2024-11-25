@@ -97,3 +97,8 @@ For further details please see our complete [security release process](SECURITY.
 ## Releases
 
 For further details please see our [release process](https://github.com/envoyproxy/envoy/blob/main/RELEASES.md).
+
+
+## This Fork
+
+This fork uses simple ringbuffered RAM-only chache for HTTP responses and is optimized for thundering herd problem solved by request coalescing
